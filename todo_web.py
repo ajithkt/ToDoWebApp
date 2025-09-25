@@ -22,4 +22,4 @@ for index,todo in enumerate(todos):
 
 st.text_input("", placeholder="Add a new todo item..", on_change=addtodo, key="new_todo")
 
-st.session_state
+#st.session_state
