@@ -9,8 +9,9 @@ def addtodo():
     functions1.write_todos(todos)
 
 st.title("My ToDo Web App")
-st.subheader("Testing sub header")
-st.write("Testing normal text")
+# st.subheader("Testing sub header")
+# st.write("Testing normal text")
+st.write("Created by  <u><b>Ajith Kattu<u><b>", unsafe_allow_html=True)
 
 for index,todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)
